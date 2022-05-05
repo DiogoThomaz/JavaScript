@@ -1,0 +1,55 @@
+Estes programas foram desenvolvidos para serem usados no console do navegador no site do instagram. (https://www.instagram.com)
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+JS Boot Follow
+
+Descrição:
+É um boot que segue automaticamente pessoas que seguiram alguma página.
+
+Modo de usar:
+1. Entre no perfil de algum terceiro.
+2. Clique em seguidores
+3. Abra o console, copie e cole o código.
+4. Rode o programa.
+
+Objetivo:
+Ganhar seguidores qualificados no instagram.
+
+Dica: 
+Não siga mais que 30 pessoas por hora. Espere algum tempo antes usar o boot novamente.
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+JS Boot Unfollow
+
+Descrição:
+É um boot que deixa de seguir pessoas automaticamente.
+
+Modo de usar:
+1. Entre no seu perfil.
+2. Clique em seguindo.
+3. Abra o console, copie e cole o código.
+4. Rode o programa.
+
+Objetivo:
+Uma página no instagram que tem mais pessoas seguindo do que seguidores, passa um impressão ruim, pois o público tende a achar que esta página não tem expressão.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+JS Console Curtidas
+
+Descrição:
+É um boot que curte postagens automaticamente.
+
+Modo de usar:
+1. Procure uma # de interesse na barra de pesquisa.
+2. Acesse a #.
+3. Abra uma postagem.
+4. Copie e cole o código.
+5. Rode o programa.
+
+Objetivo:
+Engajar um público alvo, curtindo as postagens de um determinado nincho.
