@@ -1,0 +1,30 @@
+// Comentar fotos
+
+const texto = ("kkkkkk");
+var contador = 0;
+
+
+function comentar() {
+   
+    const localizadorComentario = document.querySelector("body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div.HP0qD > div > div > div.eo2As > section.sH9wk._JgwE > div > form > textarea");
+
+    if (localizadorComentario) {
+        console.log("Comentando \n" + contador);
+        localizadorComentario.click();
+        var ev = document.createEvent('KeyboardEvent');
+        ev.initKeyboardEvent('keypress', true, true, window, false, false, false, false, 49, 0);
+        document.body.dispatchEvent(ev);
+        contador++;
+    }
+
+(function loop() {
+     setTimeout(() => {
+         comentar();
+         loop();
+     }, 10000);
+    
+    
+   }());
+
+    
+};

@@ -1,0 +1,21 @@
+// Curtir automaticamente
+const next = document.querySelector("body > div.RnEpo._Yhr4 > div.Z2Inc._7c9RR > div > div.l8mY4.feth3 > button");
+var counter = 0;
+
+function doLike() {
+  const like_btn = document.querySelector("body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div.HP0qD > div > div > div.eo2As > section.ltpMr.Slqrh > span.fr66n > button");
+  if(like_btn){
+      console.log('click\n');
+      like_btn.click();
+      counter++;
+  }
+  next.click();
+  console.log(`Você já curtiu ${counter} post(s)!`);
+}
+
+(function loop() {
+    setTimeout(() => {
+      doLike();
+      loop();  
+    }, 10000); // 10 segundos
+}()); 
